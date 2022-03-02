@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import {BsTwitter} from 'react-icons/bs'
 import {FaFacebookSquare} from 'react-icons/fa'
 import {BsInstagram} from 'react-icons/bs'
@@ -6,7 +7,7 @@ import {HiOutlineMail} from 'react-icons/hi'
 
 function Footer(){
     return(
-     <footer className='bg-[#4D93EF] p-6 lg:px-52'>
+     <footer className='bg-[#4D93EF] p-6 lg:px-40'>
          <div className='flex justify-center w-full border-b-2 border-[#EEEEEE] py-6'>
          <div className='w-9/12 '>
                     <h3 className='text-[#FFFFFF] montserrat '>Get Updates</h3>
@@ -30,7 +31,7 @@ function Footer(){
              <div className="w-4/12">
                   <h5 className='text-white text-2xl font-semibold'>Categories</h5>
                         <ul className='text-[#E3E3E3] pt-3'>
-                            <li>Tattoos</li>
+                            <li><Link to="/Tattoos">Tattoos </Link></li>
                             <li>Art</li>
                             <li>Craft</li>
                             <li>Mindfulness</li>

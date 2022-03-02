@@ -1,7 +1,7 @@
 import art from '../../../assets/images/logo512.png'
 function Main(){
     return(
-        <section className='w-full flex flex-wrap  p-6 lg:px-52'>
+        <section className='w-full flex flex-wrap  p-6 lg:px-40'>
             <div className=" text-center lg:text-left w-full lg:w-6/12">
              <div>
                <h2 className='text-4xl font-bold pt-4' >Discover, Collect and Sell Extraordinary Art</h2>

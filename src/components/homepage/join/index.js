@@ -1,7 +1,7 @@
 
 function Join(){
     return(
-        <section className="bg-[#EEEEEE] p-6 lg:px-52">
+        <section className="bg-[#EEEEEE] p-6 lg:px-40">
             <div className=' font-semibold py-6 bg-[#EEEEEE]  text-center items-center'>
                 <h5>Sell your ART through our website.</h5>
             </div>

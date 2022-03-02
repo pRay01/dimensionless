@@ -1,7 +1,7 @@
 import art from '../../../assets/images/logo512.png'
 function Trending(){
     return(
-        <section className="p-6 lg:px-52">
+        <section className="p-6 lg:px-40">
              <div  className='  flex flex-wrap justify-center text-center items-center'>
                   <h2 className='font-semibold text-3xl'>Trending</h2>
              </div>

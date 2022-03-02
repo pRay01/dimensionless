@@ -3,7 +3,7 @@ import { BsMoonFill } from "react-icons/bs";
 
 function Header() {
   return (
-    <nav className="flex flex-wrap items-center justify-between p-6 lg:px-52">
+    <nav className="flex flex-wrap items-center justify-between p-6 lg:px-40">
       <div className="flex items-center w-6/12">
         <div className="px-8 py-4">
           <img alt="logo" />
