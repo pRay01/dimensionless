@@ -1,4 +1,5 @@
 import art from '../../../assets/images/logo512.png'
+import model from '../../../assets/images/model1.jpg'
 function Work(){
     return(
         <section className="p-6 lg:px-40" >
@@ -8,82 +9,82 @@ function Work(){
         <div className='flex flex-wrap justify-evenly'>
                 <div className='w-3/12 px-2'>
                         <div className=' flex justify-center rounded-3xl bg-[#EEEEEE]'>
-                            <img className='w-2/3' src={art} />
+                            <img className='w-2/3' src={model} />
                         </div>
                 </div>
                 <div className='w-3/12 px-2'>
                         <div className=' flex justify-center rounded-3xl bg-[#EEEEEE]'>
-                            <img className='w-2/3' src={art} />
+                            <img className='w-2/3' src={model} />
                         </div>
                 </div>
                     <div className='w-3/12 px-2'>
                         <div className=' flex justify-center rounded-3xl bg-[#EEEEEE]'>
-                            <img className='w-2/3' src={art} />
+                            <img className='w-2/3' src={model} />
                         </div>
                 </div>
                 <div className='w-3/12 px-2 '>
                         <div className=' flex justify-center rounded-3xl bg-[#EEEEEE]'>
-                            <img className='w-2/3' src={art} />
+                            <img className='w-2/3' src={model} />
                         </div>
                 </div>
                 <div className='w-3/12 px-2 pt-4'>
                         <div className=' flex justify-center rounded-3xl bg-[#EEEEEE]'>
-                            <img className='w-2/3' src={art} />
+                            <img className='w-2/3' src={model} />
                         </div>
                 </div>
                 <div className='w-3/12 px-2 pt-4'>
                         <div className=' flex justify-center rounded-3xl bg-[#EEEEEE]'>
-                            <img className='w-2/3' src={art} />
+                            <img className='w-2/3' src={model} />
                         </div>
                 </div>
                 <div className='w-3/12 px-2 pt-4'>
                         <div className=' flex justify-center rounded-3xl bg-[#EEEEEE]'>
-                            <img className='w-2/3' src={art} />
+                            <img className='w-2/3' src={model} />
                         </div>
                 </div>
                 <div className='w-3/12 px-2 pt-4'>
                         <div className=' flex justify-center rounded-3xl bg-[#EEEEEE]'>
-                            <img className='w-2/3' src={art} />
+                            <img className='w-2/3' src={model} />
                         </div>
                 </div>
                 <div className='w-3/12 px-2 pt-4'>
                         <div className=' flex justify-center rounded-3xl bg-[#EEEEEE]'>
-                            <img className='w-2/3' src={art} />
+                            <img className='w-2/3' src={model} />
                         </div>
                 </div>
                 <div className='w-3/12 px-2 pt-4'>
                         <div className=' flex justify-center rounded-3xl bg-[#EEEEEE]'>
-                            <img className='w-2/3' src={art} />
+                            <img className='w-2/3' src={model} />
                         </div>
                 </div>
                 <div className='w-3/12 px-2 pt-4'>
                         <div className=' flex justify-center rounded-3xl bg-[#EEEEEE]'>
-                            <img className='w-2/3' src={art} />
+                            <img className='w-2/3' src={model} />
                         </div>
                 </div>
                 <div className='w-3/12 px-2 pt-4'>
                         <div className=' flex justify-center rounded-3xl bg-[#EEEEEE]'>
-                            <img className='w-2/3' src={art} />
+                            <img className='w-2/3' src={model} />
                         </div>
                 </div>
                 <div className='w-3/12 px-2 pt-4'>
                         <div className=' flex justify-center rounded-3xl bg-[#EEEEEE]'>
-                            <img className='w-2/3' src={art} />
+                            <img className='w-2/3' src={model} />
                         </div>
                 </div>
                 <div className='w-3/12 px-2 pt-4'>
                         <div className=' flex justify-center rounded-3xl bg-[#EEEEEE]'>
-                            <img className='w-2/3' src={art} />
+                            <img className='w-2/3' src={model} />
                         </div>
                 </div>
                 <div className='w-3/12 px-2 pt-4'>
                         <div className=' flex justify-center rounded-3xl bg-[#EEEEEE]'>
-                            <img className='w-2/3' src={art} />
+                            <img className='w-2/3' src={model} />
                         </div>
                 </div>
                 <div className='w-3/12 px-2 pt-4'>
                         <div className=' flex justify-center rounded-3xl bg-[#EEEEEE]'>
-                            <img className='w-2/3' src={art} />
+                            <img className='w-2/3' src={model} />
                         </div>
                 </div>
        </div>

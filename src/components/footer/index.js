@@ -4,6 +4,7 @@ import {FaFacebookSquare} from 'react-icons/fa'
 import {BsInstagram} from 'react-icons/bs'
 import {BsYoutube} from 'react-icons/bs'
 import {HiOutlineMail} from 'react-icons/hi'
+import logo from '../../assets/ds-w-500/ds-logo.png'
 
 function Footer(){
     return(
@@ -32,12 +33,12 @@ function Footer(){
                   <h5 className='text-white text-2xl font-semibold'>Categories</h5>
                         <ul className='text-[#E3E3E3] pt-3'>
                             <li><Link to="/Tattoos">Tattoos </Link></li>
-                            <li>Art</li>
-                            <li>Craft</li>
+                            <Link to="/art"><li>Art</li></Link>
+                            <Link to="/craft"><li>Craft</li></Link>
                             <li>Mindfulness</li>
-                            <li>Books & Beyond</li>
-                            <li>Workshops</li>
-                            <li>Trainings</li>
+                            <Link to="/books"><li>Books & Beyond</li></Link>
+                            <Link to="/workshop"><li>Workshops</li></Link>
+                            <Link to="/training"><li>Trainings</li></Link>
                         </ul>
              </div>
              <div className="w-4/12 flex justify-center">
@@ -53,15 +54,17 @@ function Footer(){
              <div >
                   <h5 className='text-white text-2xl font-semibold'>Company</h5>
                         <ul className='text-[#E3E3E3] pt-3'>
-                            <li>About Us</li>
-                            <li>Contact Us</li>
+                          <Link to="/about-us"  ><li>About Us</li></Link>
+                          <Link to="/contact-us"><li>Contact Us</li></Link>
                         </ul>
              </div>
              </div>
          </div>
          </div>
          <div className='border-b-2 border-[#EEEEEE]  py-6'>
-             <div className=' flex flex-wrap justify-center item-center'><img alt='logo'/></div>
+             <div className=' flex flex-wrap justify-center item-center'>
+                 <img  src={logo} alt='logo'/>
+             </div>
              <h2 className=' flex flex-wrap justify-center text-2xl montserrat pb-8 text-center text-[#FFFFFF] tracking-widest'>DIMENSIONLESS</h2>
          </div>
          <div className=' text-[#E3E3E3] py-6 text-sm flex justify-center lg:justify-between' >

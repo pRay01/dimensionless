@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Main from "./main"
 import Info from "./info"
 import Trending from "./trending"

@@ -1,33 +1,36 @@
 import art from '../../../assets/images/logo512.png'
+import model1 from '../../../assets/images/model1.jpg'
+import model2 from '../../../assets/images/model2.jpg'
+
 function Category(){
     return(
         <section className="p-6 lg:px-40" >
         <div className="text-center pb-10">
             <h1 className="font-semibold text-3xl">Categories</h1>
         </div>
-        <div className='flex flex-wrap justify-evenly'>
-                <div className='w-3/12 px-2'>
-                        <div className=' flex justify-center rounded-3xl bg-[#EEEEEE]'>
-                            <img className='w-2/3' src={art} />
-                        </div>
-                </div>
-                <div className='w-3/12 px-2'>
-                        <div className=' flex justify-center rounded-3xl bg-[#EEEEEE]'>
-                            <img className='w-2/3' src={art} />
-                        </div>
-                </div>
-                    <div className='w-3/12 px-2'>
-                        <div className=' flex justify-center rounded-3xl bg-[#EEEEEE]'>
-                            <img className='w-2/3' src={art} />
-                        </div>
-                </div>
-                <div className='w-3/12 px-2'>
-                        <div className=' flex justify-center rounded-3xl bg-[#EEEEEE]'>
-                            <img className='w-2/3' src={art} />
-                        </div>
-                </div>
-       </div>
-       <div className='bg-red-500 py-6 flex flex-wrap justify-center'>
+        <div className='flex flex-wrap items-center justify-center'>
+             <div className=' rounded-xl  bg-blue-400 w-3/12'>
+                   <div className='flex justify-center bg-green-200'>
+                       <img className='rounded-xl w-2/3' src={model1}/>
+                   </div>
+             </div>
+             <div className=' rounded-xl  bg-blue-400 w-3/12'>
+                   <div className='flex justify-center bg-green-200'>
+                       <img className='rounded-xl w-2/3' src={model1}/>
+                   </div>
+             </div>
+             <div className=' rounded-xl  bg-blue-400 w-3/12'>
+                   <div className='flex justify-center bg-green-200'>
+                       <img className='rounded-xl w-2/3' src={model1}/>
+                   </div>
+             </div>
+             <div className=' rounded-xl  bg-blue-400 w-3/12'>
+                   <div className='flex justify-center bg-green-200'>
+                       <img className='rounded-xl w-2/3' src={model1}/>
+                   </div>
+             </div>
+        </div>
+       <div className=' py-6 flex flex-wrap justify-center'>
            <div className='flex items-center'>
            <input id="small" type="radio"/>
            <label className='text-sm montserrat font-semibold' for="small">Small</label>

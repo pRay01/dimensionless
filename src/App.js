@@ -5,7 +5,12 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "./components/footer";
 import Explore from "./components/explorepage";
 import Tattoos from "./components/tattoos";
-
+import Art from "./components/art";
+import Craft from "./components/craft";
+import Workshop from "./components/workshop";
+import Training from "./components/training";
+import Books from "./components/books";
+import Contact from "./components/contact";
 function App() {
   return (
     <Router>
@@ -15,6 +20,12 @@ function App() {
       <Route path='/about-us' element={<About/>} />
       <Route path='/explore' element={<Explore/>} />
       <Route path='/Tattoos' element={<Tattoos/>} />
+      <Route path='/art' element={<Art/>}/>
+      <Route path='/craft' element={<Craft/>}/>
+      <Route path='/workshop' element={<Workshop/>}/>
+      <Route path='/training' element={<Training/>}/>
+      <Route path='/books' element={<Books/>}/>
+      <Route path='/contact-us' element={<Contact/>}/>
       </Routes>
       <Footer />
     </Router>
