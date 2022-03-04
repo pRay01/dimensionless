@@ -11,6 +11,8 @@ import Workshop from "./components/workshop";
 import Training from "./components/training";
 import Books from "./components/books";
 import Contact from "./components/contact";
+import Community from "./components/community";
+import Mindfulness from "./components/mindfulness";
 function App() {
   return (
     <Router>
@@ -26,6 +28,8 @@ function App() {
       <Route path='/training' element={<Training/>}/>
       <Route path='/books' element={<Books/>}/>
       <Route path='/contact-us' element={<Contact/>}/>
+      <Route path='/community' element={<Community/>}/>
+      <Route path='/mindfulness' element={<Mindfulness/>}/>
       </Routes>
       <Footer />
     </Router>

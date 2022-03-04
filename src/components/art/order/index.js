@@ -4,12 +4,12 @@ import formimg from '../../../assets/Group 1759.svg'
 function Form(){
     return(
         <section className='p-6 lg:px-40'>
-             <div className='bg-[#EEEEEE] text-right font-semibold pt-6 lg:px-20 text-3xl '>
+             <div className='bg-[#EEEEEE] text-center  lg:text-right font-semibold pt-6 lg:px-20  text-2xl lg:text-3xl '>
                          <h4>
                             Order Now
                          </h4>
                          </div>
-             <div className="bg-[#EEEEEE] flex justify-center items-center pt-10 flex-wrap">
+             <div className="bg-[#EEEEEE]  flex justify-center items-center pt-10 flex-wrap">
                  <div className="flex justify-center w-8/12">
                          <div className='lg:w-4/6'> 
                          <img src={formimg} />

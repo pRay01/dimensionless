@@ -9,24 +9,24 @@ function Category(){
             <h1 className="font-semibold text-3xl">Categories</h1>
         </div>
         <div className='flex flex-wrap items-center justify-center'>
-             <div className=' rounded-xl  bg-blue-400 w-3/12'>
-                   <div className='flex justify-center bg-green-200'>
-                       <img className='rounded-xl w-2/3' src={model1}/>
+             <div className=' rounded-xl  w-3/12 overflow-hidden'>
+                   <div style={{}}  className='flex justify-center'>
+                       <img style={{objectFit: "cover",width: 200, height: 200}} className='rounded-xl w-full' src={model1}/>
                    </div>
              </div>
              <div className=' rounded-xl  bg-blue-400 w-3/12'>
                    <div className='flex justify-center bg-green-200'>
-                       <img className='rounded-xl w-2/3' src={model1}/>
+                       <img style={{objectFit: "cover",width: 200, height: 200}}  className='rounded-xl w-2/3' src={model1}/>
                    </div>
              </div>
              <div className=' rounded-xl  bg-blue-400 w-3/12'>
                    <div className='flex justify-center bg-green-200'>
-                       <img className='rounded-xl w-2/3' src={model1}/>
+                       <img style={{objectFit: "cover",width: 200, height: 200}}  className='rounded-xl w-2/3' src={model1}/>
                    </div>
              </div>
              <div className=' rounded-xl  bg-blue-400 w-3/12'>
                    <div className='flex justify-center bg-green-200'>
-                       <img className='rounded-xl w-2/3' src={model1}/>
+                       <img style={{objectFit: "cover",width: 200, height: 200}}  className='rounded-xl w-2/3' src={model1}/>
                    </div>
              </div>
         </div>

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Banner from "./banner";
 import Artwork from "./artwork";
 import Review from "./review";
@@ -9,7 +10,7 @@ function Art(){
             <Banner/>
             <Artwork/>
             <Review/>
-            <Form/>
+             <Form/>
          </div>
     )
 }
