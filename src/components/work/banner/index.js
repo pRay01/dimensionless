@@ -1,4 +1,4 @@
-import art from '../../../assets/art-01.svg'
+import training from '../../../assets/tattoo-03.svg'
 function Banner(){
     return(
         <section className="  p-6 lg:px-40">
@@ -14,7 +14,7 @@ function Banner(){
              </div>
              <div className='  flex justify-center lg:justify-end w-full lg:w-6/12'>
                  <div className='px-10 lg:px-0 pt-10 lg:pt-0'>
-                     <img  src={art}/>
+                     <img  src={training}/>
                  </div>
              </div>
         </div>

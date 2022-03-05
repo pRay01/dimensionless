@@ -4,7 +4,7 @@ import formimg from '../../../assets/Group 1759.svg'
 function Form(){
     return(
         <section className='p-6 lg:px-40'>
-             <div className='bg-[#EEEEEE] text-right font-semibold pt-6 lg:px-20 text-3xl '>
+             <div className='bg-[#EEEEEE] text-center lg:text-right font-semibold pt-6 lg:px-20 text-2xl lg:text-3xl '>
                          <h4>
                             Contact Now
                          </h4>

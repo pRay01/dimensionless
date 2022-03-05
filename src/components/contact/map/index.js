@@ -7,7 +7,7 @@ import {HiOutlineMail} from 'react-icons/hi'
 function Map(){
     return(
         <section className='p-4 lg:px-40 flex flex-wrap'>
-            <div className="w-6/12 ">
+            <div className=" w-full lg:w-6/12 ">
                 <div className='px-8 montserrat'>
                     <p>dimensionlesstudios@gmail.com</p>
                 </div>
@@ -25,7 +25,7 @@ function Map(){
                     <p>2nd Cross Road, 1st Main Road AECS Layout - A Block Brookfield, Bengaluru Karnataka - 560037</p>
                 </div> 
             </div>
-            <div className='w-6/12 flex justify-center items-center'>
+            <div className='w-full lg:w-6/12 flex justify-center items-center'>
                   <div className='w-4/6 text-center  h-40 bg-gray-600'>
                        <p> MAP</p>
                   </div>

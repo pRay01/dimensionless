@@ -49,7 +49,7 @@ function Footer(){
              <div >
                  <h5 className='text-white text-2xl font-semibold'>Community</h5>
                         <ul className='text-[#E3E3E3] pt-3'>
-                            <li>DNA Community</li>
+                            <li><Link to="/community">DNA Community </Link></li>
                             <li>Blogs</li>
                             </ul>
              </div>

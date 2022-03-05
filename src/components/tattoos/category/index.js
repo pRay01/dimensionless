@@ -1,7 +1,7 @@
 import art from '../../../assets/images/logo512.png'
 import model1 from '../../../assets/images/model1.jpg'
 import model2 from '../../../assets/images/model2.jpg'
-
+import { Link } from "react-router-dom";
 function Category(){
     return(
         <section className="p-6 lg:px-40" >
@@ -45,7 +45,9 @@ function Category(){
            </div>
        </div>
        <div className='flex justify-center pt-4 items-center'>
+                   <Link to="/categories">
                     <button className='bg-[#1A73E8] shadow montserrat text-white rounded-lg px-10 py-1'>All Categories</button>
+                    </Link>
                 </div>    
       </section>
     )

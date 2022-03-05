@@ -13,6 +13,7 @@ import Books from "./components/books";
 import Contact from "./components/contact";
 import Community from "./components/community";
 import Mindfulness from "./components/mindfulness";
+import Categories from "./components/categories";
 function App() {
   return (
     <Router>
@@ -30,6 +31,7 @@ function App() {
       <Route path='/contact-us' element={<Contact/>}/>
       <Route path='/community' element={<Community/>}/>
       <Route path='/mindfulness' element={<Mindfulness/>}/>
+      <Route path='/categories' element={<Categories/>}/>
       </Routes>
       <Footer />
     </Router>
