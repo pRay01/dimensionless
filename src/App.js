@@ -14,9 +14,11 @@ import Contact from "./components/contact";
 import Community from "./components/community";
 import Mindfulness from "./components/mindfulness";
 import Categories from "./components/categories";
+import ScrollToTop from "./components/ScrollToTop";
 function App() {
   return (
     <Router>
+      <ScrollToTop/>
        <Header />
       <Routes>
       <Route path='/' element={<Homepage/>} />
