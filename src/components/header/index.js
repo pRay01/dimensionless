@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
 import { BsMoonFill } from "react-icons/bs";
-
+import logo from '../../assets/ds-b-2500/ds-b-logo.png'
 function Header() {
   return (
-    <nav className="flex flex-wrap items-center justify-between p-6 lg:px-52">
-      <div className="flex items-center w-6/12">
-        <div className="px-8 py-4">
-          <img alt="logo" />
-        </div>
-        <h1 className=" montserrat font-semibold tracking-widest text-2xl  text-[#707070]">
+    <nav className="flex flex-wrap items-center justify-between pt-10 lg:pt-3 lg:px-24">
+      <div className="flex w-full justify-center items-center lg:w-6/12">
+      <Link to="/"> <div className="">
+          <img className=" w-10 lg:w-20 " src={logo} alt="logo" />
+        </div> </Link>
+        <h1 className=" lg:pr-24 pl-2 montserrat font-semibold tracking-widest text-2xl  text-[#707070]">
           DIMENSIONLESS
         </h1>
       </div>
@@ -27,9 +27,11 @@ function Header() {
             </Link>
           </li>
           <li>
+          <Link to="/community">
             <p className="px-4  text-[#707070] text-sm font-semibold">
               Community
             </p>
+            </Link>
           </li>
         </ul>
       </div>
