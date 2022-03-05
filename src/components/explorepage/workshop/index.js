@@ -3,7 +3,7 @@ import work from '../../../assets/workshops/workshops.png'
 import training from '../../../assets/Training-illustrations.svg'
 function Workshop(){
     return(
-        <section className='p-6 lg:px-40'>
+        <section className='bg-[#EEEEEE] p-6 lg:px-40'>
         <div className='bg-[#EEEEEE] flex justify-evenly flex-wrap '>
              <div className=' pt-10 pb-14 w-full p-4 lg:w-4/12'>
                   <div className='montserrat   font-semibold text-center lg:text-left text-2xl lg:text-4xl'>

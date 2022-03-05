@@ -3,7 +3,7 @@ import art from '../../../assets/art-illustration.svg'
 import craft from '../../../assets/craft.svg'
 function Craft(){
     return(
-        <section className='p-6 lg:px-40'>
+        <section className=' bg-[#EEEEEE] p-6 lg:px-40'>
               <div className='pt-10 bg-[#EEEEEE] justify-evenly flex flex-wrap '>
                    <div className=' w-full p-4 lg:w-4/12'>
                         <div className='montserrat  font-semibold text-center lg:text-left text-4xl'>

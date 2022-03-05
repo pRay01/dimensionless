@@ -24,7 +24,7 @@ function App() {
       <Route path='/' element={<Homepage/>} />
       <Route path='/about-us' element={<About/>} />
       <Route path='/explore' element={<Explore/>} />
-      <Route path='/Tattoos' element={<Tattoos/>} />
+      <Route path='/tattoos' element={<Tattoos/>} />
       <Route path='/art' element={<Art/>}/>
       <Route path='/craft' element={<Craft/>}/>
       <Route path='/workshop' element={<Workshop/>}/>
@@ -41,3 +41,18 @@ function App() {
 }
 
 export default App;
+
+//Page list/
+//https://dimensionless.vercel.app/
+//https://dimensionless.vercel.app/about-us
+//https://dimensionless.vercel.app/explore
+//https://dimensionless.vercel.app/tattoos
+//https://dimensionless.vercel.app/art
+//https://dimensionless.vercel.app/craft
+///https://dimensionless.vercel.app/workshop
+//https://dimensionless.vercel.app/training
+//https://dimensionless.vercel.app/books
+//https://dimensionless.vercel.app/contact-us
+//https://dimensionless.vercel.app/community
+//https://dimensionless.vercel.app/mindfulness
+//https://dimensionless.vercel.app/categories

@@ -2,7 +2,7 @@ import art from '../../../assets/images/logo512.png'
 import formimg from '../../../assets/Group 1764/Group 1764.png'
 function Form(){
     return(
-        <section className='p-6 lg:px-40'>
+        <section className='bg-[#EEEEEE] p-6 lg:px-40'>
              <div className='flex pt-10 justify-center lg:text-2xl font-semibold bg-[#EEEEEE]'>
                  <h4>
                      Book your Free Consulation call Now

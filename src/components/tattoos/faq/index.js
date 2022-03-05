@@ -1,7 +1,7 @@
 import question from '../../../assets/Group 1754.svg'
 function Faq(){
     return(
-         <section className=" p-4  lg:px-40">
+         <section className="bg-[#EEEEEE] p-4  lg:px-40">
              <div className="bg-[#EEEEEE] flex justify-center text-2xl font-semibold">
                  <h5>FAQ'S</h5>
              </div>

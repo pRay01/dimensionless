@@ -14,18 +14,18 @@ function Category(){
                        <img style={{objectFit: "cover",width: 200, height: 200}} className='rounded-xl w-full' src={model1}/>
                    </div>
              </div>
-             <div className=' rounded-xl  bg-blue-400 w-3/12'>
-                   <div className='flex justify-center bg-green-200'>
+             <div className=' rounded-xl   w-3/12'>
+                   <div className='flex justify-center '>
                        <img style={{objectFit: "cover",width: 200, height: 200}}  className='rounded-xl w-2/3' src={model1}/>
                    </div>
              </div>
-             <div className=' rounded-xl  bg-blue-400 w-3/12'>
-                   <div className='flex justify-center bg-green-200'>
+             <div className=' rounded-xl   w-3/12'>
+                   <div className='flex justify-center '>
                        <img style={{objectFit: "cover",width: 200, height: 200}}  className='rounded-xl w-2/3' src={model1}/>
                    </div>
              </div>
-             <div className=' rounded-xl  bg-blue-400 w-3/12'>
-                   <div className='flex justify-center bg-green-200'>
+             <div className=' rounded-xl   w-3/12'>
+                   <div className='flex justify-center '>
                        <img style={{objectFit: "cover",width: 200, height: 200}}  className='rounded-xl w-2/3' src={model1}/>
                    </div>
              </div>
