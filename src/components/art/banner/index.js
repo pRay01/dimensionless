@@ -1,7 +1,7 @@
 import art from '../../../assets/art-03.svg'
 function Banner(){
     return(
-        <section className='p-6 lg:px-40'>
+        <section className='p-6 min-h-screen lg:px-40'>
         <div className='bg-white flex flex-wrap justify-evenly items-center '> 
            <div className=' w-full lg:w-4/12 '>
                <div className=' font-semibold text-2xl text-center lg:text-left lg:text-5xl  '>
