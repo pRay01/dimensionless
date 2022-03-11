@@ -1,7 +1,7 @@
 import mind from '../../../assets/mindfulness.svg'
 function Mindfulness(){
     return(
-        <section className="p-6 lg:px-40">
+        <section className=" bg-[#EEEEEE] p-6 lg:px-40">
           <div className='bg-[#EEEEEE]'>
               <div className=' px-16 pt-10  py-6'>
                   <img  src={mind}   alt="mindfulness"/>
