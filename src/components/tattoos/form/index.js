@@ -19,31 +19,31 @@ function Form(){
                        <div className=''>
                            <label className='block' for="name">Name</label>
                            <div className='pt-2'>
-                               <input className='rounded-lg ' type="text" id="name"/>
+                               <input className='rounded-lg py-1' type="text" id="name"/>
                             </div>
                        </div>
                        <div className='pt-4'>
                            <label  className='block'  for="e-mail">E-mail Address</label>
                            <div className='pt-2'>
-                           <input  className='rounded-lg'  type="email" id="e-mail"/>
+                           <input  className='rounded-lg py-1'  type="email" id="e-mail"/>
                            </div>
                        </div>
                        <div className='pt-4'>
                            <label  className='block'  for="number">Contact Number</label>
                            <div className='pt-2'>
-                           <input  className='rounded-lg' type="number" id="number"/>
+                           <input  className='rounded-lg py-1' type="number" id="number"/>
                            </div>
                        </div>
                        <div className='pt-4'>
                            <label  className='block'  for="date">Date</label>
                            <div className='pt-2'>
-                           <input className='rounded-lg'  type="date" id="date"/>
+                           <input className='rounded-lg px-2 py-1'  type="date" id="date"/>
                            </div>
                        </div>
                        <div className='pt-4'>
                            <label  className='block'  for="time">Time</label>
                            <div className='pt-2'>
-                           <input  className='rounded-lg' type="time"  id="time"/>
+                           <input  className='rounded-lg px-12 py-1' type="time"  id="time"/>
                            </div>
                        </div>
                        <div className='flex  pt-10 items-center'>

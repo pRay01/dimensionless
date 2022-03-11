@@ -1,7 +1,7 @@
 
 function Info(){
     return(
-        <section className=" bg-[#EEEEEE] w-full flex flex-wrap p-4 lg:px-40">
+        <section className=" bg-[#EEEEEE] w-full flex flex-wrap p-4 lg:mt-10 lg:py-10 lg:px-40">
           <div className=" text-center lg:text-left px-10 flex flex-wrap">
             <div className=" w-full lg:p-4  lg:w-3/12">
                <h3 className="text-2xl font-semibold p-1">Lorem Ipusm dolor sit amet</h3>
