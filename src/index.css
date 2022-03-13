@@ -23,24 +23,15 @@ h1{
     box-shadow: 10px 12px 12px #00000057;
 }
 
-button{
-    padding-left:30px !important;
-    padding-right: 30px !important;
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
-    transition: all 0.3s ease-in-out;
+.btn{
+    @apply text-lg inline rounded-xl px-16 py-2;
 }
-.primary{
-
+.btn{
+   transition: all 0.3s ease-in-out;
 }
-.secondary{
-
+.primary-btn{
+    @apply bg-blue-600 text-white hover:bg-blue-900;
 }
-
-button:hover{
-    padding-left:21px !important;
-    padding-right: 21px !important;
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
-    font-size: 17px;
+.secondary-btn{
+    @aaply bg-white text-blue-600 hover:bg-gray-500;
 }
