@@ -15,28 +15,36 @@ import Community from "./components/community";
 import Mindfulness from "./components/mindfulness";
 import Categories from "./components/categories";
 import ScrollToTop from "./components/ScrollToTop";
+import {useState} from 'react'
 function App() {
+  const [toggleDark, settoggleDark] = useState(false);
+   const handleModeChange = () => {
+     settoggleDark(!toggleDark);
+     // console.log(toggleDark,'toggle')
+   };
   return (
-    <Router>
-      <ScrollToTop/>
-       <Header />
-      <Routes>
-      <Route path='/' element={<Homepage/>} />
-      <Route path='/about-us' element={<About/>} />
-      <Route path='/explore' element={<Explore/>} />
-      <Route path='/tattoos' element={<Tattoos/>} />
-      <Route path='/art' element={<Art/>}/>
-      <Route path='/craft' element={<Craft/>}/>
-      <Route path='/workshop' element={<Workshop/>}/>
-      <Route path='/training' element={<Training/>}/>
-      <Route path='/books' element={<Books/>}/>
-      <Route path='/contact-us' element={<Contact/>}/>
-      <Route path='/community' element={<Community/>}/>
-      <Route path='/mindfulness' element={<Mindfulness/>}/>
-      <Route path='/categories' element={<Categories/>}/>
-      </Routes>
-      <Footer />
-    </Router>
+    <div className={toggleDark?"dark ":""}>
+      <Router>
+        <ScrollToTop />
+        <Header toggleDark={toggleDark} handleModeChange={handleModeChange} />
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/about-us" element={<About />} />
+          <Route path="/explore" element={<Explore />} />
+          <Route path="/tattoos" element={<Tattoos />} />
+          <Route path="/art" element={<Art />} />
+          <Route path="/craft" element={<Craft />} />
+          <Route path="/workshop" element={<Workshop />} />
+          <Route path="/training" element={<Training />} />
+          <Route path="/books" element={<Books />} />
+          <Route path="/contact-us" element={<Contact />} />
+          <Route path="/community" element={<Community />} />
+          <Route path="/mindfulness" element={<Mindfulness />} />
+          <Route path="/categories" element={<Categories />} />
+        </Routes>
+        <Footer />
+      </Router>
+    </div>
   );
 }
 
