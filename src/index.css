@@ -24,7 +24,7 @@ h1{
 }
 
 .btn{
-    @apply text-lg inline rounded-xl px-16 py-2;
+    @apply text-lg inline rounded-xl px-16 py-2 2xl:text-3xl 2xl:py-3 2xl:px-24;
 }
 .btn{
    transition: all 0.3s ease-in-out;
