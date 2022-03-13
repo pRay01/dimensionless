@@ -18,7 +18,7 @@ function Header(props) {
       <div className="hidden lg:block w-6/12">
         <ul className="flex items-center justify-end">
           <li>
-            <div className="text-[#707070] cursor-pointer">
+            <div className="text-[#707070] cursor-pointer text-sm lg:text-xl 2xl:text-4xl mr-4">
               {!props.toggleDark ? (
                 <BsMoonFill onClick={() => props.handleModeChange()} />
               ) : (
@@ -28,14 +28,14 @@ function Header(props) {
           </li>
           <li>
             <Link to="/explore">
-              <p className="px-4 text-[#707070] text-sm font-semibold">
+              <p className="px-4 text-[#707070] text-sm lg:text-xl 2xl:text-4xl font-semibold">
                 Explore
               </p>
             </Link>
           </li>
           <li>
             <Link to="/community">
-              <p className="px-4  text-[#707070] text-sm font-semibold">
+              <p className="px-4  text-[#707070] text-sm lg:text-xl 2xl:text-4xl font-semibold">
                 Community
               </p>
             </Link>
