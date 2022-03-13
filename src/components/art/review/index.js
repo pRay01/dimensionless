@@ -3,7 +3,7 @@ import people from '../../../assets/images/people.jpg'
 
 function Review(){
     return(
-        <section className="p-6 lg:px-40">
+        <section className="p-6 lg:py-20 2xl:py-40 lg:px-40">
             <div className='text-center font-semibold  text-3xl'>
                 Review
             </div>

@@ -1,7 +1,7 @@
 import about from '../../../assets/Group 1755.svg'
 function Banner(){
     return(
-        <section className='p-6 lg:px-40'>
+        <section className='p-6 min-h-screen lg:px-36'>
             <div className='bg-white pt-10 pb-10 flex flex-wrap items-center '> 
                <div className=' w-full  lg:w-4/12 '>
                    <div className=' font-semibold text-2xl lg:text-4xl text-center lg:text-left lg:pl-10  '>

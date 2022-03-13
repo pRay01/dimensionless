@@ -3,12 +3,12 @@ import { BsMoonFill } from "react-icons/bs";
 import logo from '../../assets/ds-b-2500/ds-b-logo.png'
 function Header() {
   return (
-    <nav className="flex flex-wrap items-center justify-between pt-10 lg:pt-3 lg:px-24">
-      <div className="flex w-full justify-center items-center lg:w-6/12">
+    <nav className="flex flex-wrap items-center justify-between py-10 lg:py-3  lg:px-36">
+      <div className="flex w-full justify-center 2xl:justify-start  items-center lg:w-6/12">
       <Link to="/"> <div className="">
           <img className=" w-10 lg:w-20 " src={logo} alt="logo" />
         </div> </Link>
-        <h1 className=" lg:pr-24 pl-2 montserrat font-semibold tracking-widest text-2xl  text-[#707070]">
+        <h1 className=" lg:pr-24 2xl:pr-0 pl-2 montserrat font-semibold tracking-widest text-2xl  text-[#707070]">
           DIMENSIONLESS
         </h1>
       </div>

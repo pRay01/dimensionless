@@ -5,7 +5,7 @@ import tattoo from '../../../assets/tattoo/tattoo.png'
 
 function Main(){
     return(
-        <section className=" lg:pl-60 lg:px-40  ">
+        <section className="  min-h-screen lg:pl-60 lg:px-36  ">
           <div className=' justify-center lg:justify-between flex flex-wrap items-center  '> 
                <div className='  w-full lg:w-4/12 '>
                    <div className='pt-10 lg:pt-0 font-bold text-2xl lg:text-4xl text-center lg:text-left '>

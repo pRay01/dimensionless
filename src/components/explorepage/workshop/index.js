@@ -5,11 +5,11 @@ function Workshop(){
     return(
         <section className='bg-[#EEEEEE] p-6 lg:px-40'>
         <div className='bg-[#EEEEEE] flex justify-evenly flex-wrap '>
-             <div className=' pt-10 pb-14 w-full p-4 lg:w-4/12'>
-                  <div className='montserrat   font-semibold text-center lg:text-left text-2xl lg:text-4xl'>
+             <div className=' pt-10 lg:py-20 pb-14 w-full p-4 lg:w-4/12'>
+                  <div className='montserrat   font-semibold text-center lg:text-left text-2xl lg:text-4xl 2xl:text-left 2xl:text-8xl'>
                       <h3>Workshops</h3>
                   </div>
-                  <p className='pt-2 text-center lg:text-left'>
+                  <p className='pt-2 2xl:pt-4 text-center lg:text-left 2xl:text-4xl'>
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
                   </p>
                   <div className='py-6 text-center lg:text-left'>
@@ -18,23 +18,23 @@ function Workshop(){
                      </Link>
                   </div>
              </div>
-             <div className=' flex items-center justify-center w-full  lg:w-6/12'>
+             <div className=' flex items-center justify-center 2xl:justify-end  w-full  lg:w-6/12'>
                  <div className='p-8 lg:p-4'>
                      <img src={work}/>
                  </div>
              </div>
         </div>
-        <div className='bg-[#EEEEEE] pt-8 flex justify-evenly flex-wrap '>
+        <div className='bg-[#EEEEEE] pt-8 lg:py-10 2xl:pt-40 flex justify-evenly flex-wrap '>
            <div className=' flex items-center order-2 lg:order-1 justify-center w-full  lg:w-6/12'>
                <div className='p-8 lg:p-6'>
                    <img src={training}/>
                </div>
            </div>
            <div className=' w-full order-1  p-6 lg:w-4/12'>
-                  <div className='montserrat  font-semibold text-center lg:text-left text-2xl lg:text-4xl'>
+                  <div className='montserrat  font-semibold text-center lg:text-left text-2xl lg:text-4xl 2xl:text-8xl'>
                       <h3>Trainings</h3>
                   </div>
-                  <p className='pt-2 text-center lg:text-left'>
+                  <p className='pt-2 2xl:pt-4 text-center lg:text-left  2xl:text-4xl'>
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam 
                   </p>
                   <div className='py-8 text-center lg:text-left'>

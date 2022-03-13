@@ -2,7 +2,7 @@ import art from '../../../assets/images/logo512.png'
 import model from '../../../assets/images/model1.jpg'
 function Work(){
     return(
-        <section className="p-6 lg:px-40" >
+        <section className="p-6 2xl:py-40 lg:px-40" >
         <div className="text-center pb-10">
             <h1 className="font-semibold text-3xl">Our Work</h1>
         </div>

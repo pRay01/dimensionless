@@ -1,7 +1,7 @@
 import art from '../../../assets/Mindfulness-01.svg'
 function Banner(){
     return(
-        <section className="  pt-14 lg:px-36">
+        <section className="  min-h-screen pt-14 lg:px-36">
         <div className='bg-white flex flex-wrap justify-center lg:justify-between items-center '> 
              <div className=' w-full lg:w-4/12 '>
                  <div className=' font-bold  text-2xl lg:text-4xl text-center lg:text-left  '>

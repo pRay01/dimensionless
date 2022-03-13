@@ -2,13 +2,13 @@ import { Link } from "react-router-dom";
 import com from '../../../assets/images/com.jpg'
 function Community(){
     return(
-        <section className=' p-6 lg:px-40'>
+        <section className=' p-6 lg:px-40 lg:py-20 2xl:py-40'>
         <div className=' flex flex-wrap  justify-evenly '>
              <div className=' w-full p-4 lg:w-6/12'>
-                  <div className='montserrat  font-semibold text-center text-2xl lg:text-left lg:text-4xl'>
+                  <div className='montserrat  font-semibold text-center text-2xl lg:text-left lg:text-4xl 2xl:text-6xl'>
                       <h3>DNA Community</h3>
                   </div>
-                  <p className='pt-2 px-6 lg:px-0 text-center lg:text-left'>
+                  <p className='pt-2 2xl:pt-4 px-6 2xl:text-3xl lg:px-0 text-center lg:text-left'>
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt sed diam nonumy eirmod tempor invidunt 
                   </p>
                   <div className='py-8 text-center lg:text-left'>
