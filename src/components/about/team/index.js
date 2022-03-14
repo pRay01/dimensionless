@@ -1,7 +1,7 @@
 import team from '../../../assets/images/team.png'
 function Team(){
     return(
-        <section className="p-6 py-10 2xl:py-40 lg:px-36">
+        <section className="dark:bg-[#202124] dark:text-white p-6 py-10 2xl:py-40 lg:px-36">
             <div className=" text-center font-semibold text-4xl 2xl:text-6xl">
                 <h5>Our Team</h5>
             </div>

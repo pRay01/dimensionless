@@ -6,7 +6,7 @@ import Books from "./books";
 import Mindfulness from "./mindfulness";
  function Explore(){
      return(
-         <div>
+         <div className="dark:bg-black dark:text-white">
         <Main/>
         <Craft/>
         <Community/>

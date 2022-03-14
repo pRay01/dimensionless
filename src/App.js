@@ -20,6 +20,10 @@ function App() {
   const [toggleDark, settoggleDark] = useState(false);
    const handleModeChange = () => {
      settoggleDark(!toggleDark);
+
+     //toggleDark == false  or true
+     //first condition passes !true => false
+     //second condition passes !false => true
      // console.log(toggleDark,'toggle')
    };
   return (
