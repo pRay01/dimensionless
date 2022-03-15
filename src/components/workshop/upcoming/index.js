@@ -3,8 +3,8 @@ import collab from '../../../assets/Group 1757.svg'
 import earn from '../../../assets/Group 1758.svg'
 function Upcoming(){
     return(
-        <section className='p-6 py-20 2xl:py-40 lg:px-40'>
-        <div className=' text-center font-semibold text-3xl  py-10 2xl:py-20 2xl:text-6xl'>
+        <section className='dark:bg-[#202124] dark:text-white  p-6 py-20 2xl:py-40 lg:px-40'>
+        <div className='dark:bg-[#202124] dark:text-white  text-center font-semibold text-3xl  py-10 2xl:py-20 2xl:text-6xl'>
             <h5>
                 Upcoming
             </h5>
@@ -14,10 +14,10 @@ function Upcoming(){
                   <div className='montserrat  font-semibold text-center lg:text-left text-2xl  lg:text-3xl 2xl:text-6xl'>
                       <h3>Lorem ipsum</h3>
                   </div>
-                  <p className='pt-2 px-10 lg:px-0  text-center lg:text-left 2xl:pt-6 2xl:text-3xl'>
+                  <p className='dark:text-[#B5B5B5] pt-2 px-10 lg:px-0  text-center lg:text-left 2xl:pt-6 2xl:text-3xl'>
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam </p>
                   <div className=' flex justify-center lg:justify-start  py-6'>
-                  <button className='button-shadow rounded-lg bg-[#1A73E8] text-[#FFFFFF] px-10 py-1 text-sm montserrat'>Book Now</button>
+                  <button className='dark:bg-[#8AB4F8] dark:text-black button-shadow rounded-lg bg-[#1A73E8] text-[#FFFFFF] px-10 py-1 text-sm montserrat'>Book Now</button>
                   </div>
              </div>
              <div className=' flex justify-center w-full  lg:w-4/12'>
@@ -36,11 +36,11 @@ function Upcoming(){
                   <div className='montserrat  font-semibold text-center lg:text-right text-2xl  lg:text-3xl 2xl:text-6xl'>
                       <h3>Lorem ipsum</h3>
                   </div>
-                  <p className='pt-3 px-10 text-center lg:text-right 2xl:pt-6 2xl:text-3xl'>
+                  <p className=' dark:text-[#B5B5B5] pt-3  text-center lg:text-right 2xl:pt-6 2xl:text-3xl'>
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
                   </p>
                   <div className=' flex justify-center lg:justify-end  py-6'>
-                  <button className='button-shadow rounded-lg bg-[#1A73E8] text-[#FFFFFF] px-10 py-1 text-sm montserrat'>Book Now</button>
+                  <button className='dark:bg-[#8AB4F8] dark:text-black button-shadow rounded-lg bg-[#1A73E8] text-[#FFFFFF] px-10 py-1 text-sm montserrat'>Book Now</button>
                   </div>
              </div>
          </div> 
@@ -49,10 +49,10 @@ function Upcoming(){
                   <div className='montserrat  font-semibold text-center lg:text-left text-2xl  lg:text-3xl 2xl:text-6xl'>
                       <h3>Lorem ipsum</h3>
                   </div>
-                  <p className='pt-3 px-10 lg:px-0 text-center lg:text-left 2xl:pt-6 2xl:text-3xl'>
+                  <p className='dark:text-[#B5B5B5] pt-3 px-10 lg:px-0 text-center lg:text-left 2xl:pt-6 2xl:text-3xl'>
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam </p>
                   <div className=' flex justify-center lg:justify-start  py-6'>
-                  <button className='button-shadow rounded-lg bg-[#1A73E8] text-[#FFFFFF] px-10 py-1 text-sm montserrat'>Book Now</button>
+                  <button className='dark:bg-[#8AB4F8] dark:text-black button-shadow rounded-lg bg-[#1A73E8] text-[#FFFFFF] px-10 py-1 text-sm montserrat'>Book Now</button>
                   </div>
              </div>
              <div className=' flex justify-center w-full lg:w-4/12'>
@@ -71,11 +71,11 @@ function Upcoming(){
                   <div className='montserrat  font-semibold text-center lg:text-right text-2xl  lg:text-3xl 2xl:text-6xl'>
                       <h3>Lorem ipsum</h3>
                   </div>
-                  <p className='pt-3 px-10 lg:px-0 text-center lg:text-right 2xl:pt-6 2xl:text-3xl'>
+                  <p className='dark:text-[#B5B5B5] pt-3 px-10 lg:px-0 text-center lg:text-right 2xl:pt-6 2xl:text-3xl'>
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
                   </p>
                   <div className=' flex justify-center lg:justify-end  py-6'>
-                  <button className='button-shadow rounded-lg bg-[#1A73E8] text-[#FFFFFF] px-10 py-1 text-sm montserrat'>Book Now</button>
+                  <button className='dark:bg-[#8AB4F8] dark:text-black button-shadow rounded-lg bg-[#1A73E8] text-[#FFFFFF] px-10 py-1 text-sm montserrat'>Book Now</button>
                   </div>
              </div>
          </div> 
@@ -84,10 +84,10 @@ function Upcoming(){
                   <div className='montserrat  font-semibold text-center lg:text-left text-2xl  lg:text-3xl 2xl:text-6xl'>
                       <h3>Lorem ipsum</h3>
                   </div>
-                  <p className='pt-3 px-10 lg:px-0 text-center lg:text-left 2xl:pt-6 2xl:text-3xl'>
+                  <p className='dark:text-[#B5B5B5] pt-3 px-10 lg:px-0 text-center lg:text-left 2xl:pt-6 2xl:text-3xl'>
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam </p>
                   <div className=' flex justify-center lg:justify-start  py-6'>
-                  <button className='button-shadow rounded-lg bg-[#1A73E8] text-[#FFFFFF] px-10 py-1 text-sm montserrat'>Book Now</button>
+                  <button className='dark:bg-[#8AB4F8] dark:text-black button-shadow rounded-lg bg-[#1A73E8] text-[#FFFFFF] px-10 py-1 text-sm montserrat'>Book Now</button>
                   </div>
              </div>
              <div className=' flex justify-center w-80  lg:w-4/12'>
@@ -106,11 +106,11 @@ function Upcoming(){
                   <div className='montserrat  font-semibold text-center lg:text-right text-2xl  lg:text-3xl 2xl:text-6xl'>
                       <h3>Lorem Ipsum</h3>
                   </div>
-                  <p className='pt-3 text-center lg:text-right  2xl:pt-6 2xl:text-3xl'>
+                  <p className= 'dark:text-[#B5B5B5] pt-3 text-center lg:text-right  2xl:pt-6 2xl:text-3xl'>
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
                   </p>
                   <div className=' flex justify-center lg:justify-end  py-6'>
-                  <button className='button-shadow rounded-lg bg-[#1A73E8] text-[#FFFFFF] px-10 py-1 text-sm montserrat'>Book Now</button>
+                  <button className='dark:bg-[#8AB4F8] dark:text-black button-shadow rounded-lg bg-[#1A73E8] text-[#FFFFFF] px-10 py-1 text-sm montserrat'>Book Now</button>
                   </div>
              </div>
              </div>

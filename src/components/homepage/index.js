@@ -7,7 +7,7 @@ import Category from "./category"
 import Testimonial from "./testimonial"
 function Homepage(){
     return(
-     <div>
+     <div className="dark:bg-black dark:text-white">
         <Main/>
         <Info/>
         <Trending/>

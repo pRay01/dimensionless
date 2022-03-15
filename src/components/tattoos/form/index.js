@@ -2,19 +2,19 @@ import art from '../../../assets/images/logo512.png'
 import formimg from '../../../assets/Group 1764/Group 1764.png'
 function Form(){
     return(
-        <section className='bg-[#EEEEEE] p-6 lg:px-40'>
-             <div className='flex pt-8 justify-center lg:text-2xl 2xl:text-6xl font-semibold bg-[#EEEEEE]'>
+        <section className='darkmode dark:text-white darkmode bg-[#EEEEEE] p-6 lg:px-40'>
+             <div className=' darkmode dark:text-white flex pt-8 justify-center lg:text-2xl 2xl:text-6xl font-semibold bg-[#EEEEEE]'>
                  <h4>
                      Book your Free Consulation call Now
                  </h4>
              </div>
-             <div className="bg-[#EEEEEE] pb-10 2xl:py-40 flex justify-center pt-10 flex-wrap">
+             <div className="darkmode bg-[#EEEEEE] pb-10 2xl:py-40 flex justify-center pt-10 flex-wrap">
                  <div className="flex justify-center items-end w-8/12">
                          <div className=''> 
                          <img className='' src={formimg} />
                          </div>
                  </div>
-                 <div className=' pt-8 2xl:pt-0 flex justify-center w-full lg:w-4/12'>
+                 <div className='darkmode pt-8 2xl:pt-0 flex justify-center w-full lg:w-4/12'>
                      <div className='montserrat'>
                        <div className=''>
                            <label className='block 2xl:text-3xl' for="name">Name</label>

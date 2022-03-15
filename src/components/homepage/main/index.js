@@ -2,18 +2,18 @@ import { Link } from "react-router-dom";
 import art from '../../../assets/images/art.jpg'
 function Main(){
     return (
-      <section className="w-full min-h-screen dark:bg-black dark:text-white flex flex-wrap lg:justify-between items-center  lg:px-36">
+      <section className="w-full min-h-screen dark:bg-[#202124] dark:text-white flex flex-wrap lg:justify-between items-center  lg:px-36">
         <div className="lg:pl-10 text-center lg:text-left w-full  lg:w-6/12">
           <div>
             <h2 className=" text-2xl lg:text-3xl font-bold pt-4 2xl:text-5xl">
               Discover, Collect and Sell Extraordinary Art
             </h2>
-            <h5 className="pt-3 text-lg text-[#343434] dark:text-gray-400 montserrat 2xl:text-3xl">
+            <h5 className="pt-3 text-lg text-[#343434] dark:text-[#B5B5B5] montserrat 2xl:text-3xl">
               Be Dimensionless
             </h5>
             <div className=" py-10 lg:py-16">
               <Link to="/art">
-                <button className="btn primary-btn">Explore</button>
+                <button className="dark:bg-[#8AB4F8] dark:text-black btn primary-btn">Explore</button>
               </Link>
             </div>
           </div>

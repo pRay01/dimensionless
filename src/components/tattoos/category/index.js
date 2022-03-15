@@ -4,7 +4,7 @@ import model2 from '../../../assets/images/model2.jpg'
 import { Link } from "react-router-dom";
 function Category(){
     return(
-        <section className="p-6 lg:px-40" >
+        <section className=" dark:text-white dark:bg-[#202124]  p-6 lg:px-40" >
         <div className="text-center pb-10">
             <h1 className="font-semibold text-3xl">Categories</h1>
         </div>
@@ -46,7 +46,7 @@ function Category(){
        </div>
        <div className='flex justify-center pt-4 items-center'>
                    <Link to="/categories">
-                    <button className='bg-[#1A73E8] shadow montserrat text-white rounded-lg px-10 py-1'>All Categories</button>
+                    <button className='dark:bg-[#8AB4F8] dark:text-black bg-[#1A73E8] shadow montserrat text-white rounded-lg px-10 py-1'>All Categories</button>
                     </Link>
                 </div>    
       </section>

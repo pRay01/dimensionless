@@ -2,7 +2,7 @@ import people from '../../../assets/images/people.jpg'
 
 function Testimonial(){
     return(
-        <section className="p-6 2xl:py-20 lg:px-40">
+        <section className="dark:bg-[#202124] dark:text-white p-6 2xl:py-20 lg:px-40">
             <div className='text-center font-semibold 2xl:py-8 text-3xl'>
                 Testimonials
             </div>

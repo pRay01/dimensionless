@@ -3,7 +3,7 @@ import collab from '../../../assets/Group 1757.svg'
 import earn from '../../../assets/Group 1758.svg'
 function Untitled(){
     return(
-        <section className='py-20 2xl:py-40 lg:px-36'>
+        <section className='dark:bg-[#202124] dark:text-white  py-20 2xl:py-40 lg:px-36'>
         <div className=' text-center font-semibold 2xl:text-6xl text-3xl py-10 2xl:py-20'>
             <h5>
                 Lorem Ipsum
@@ -14,7 +14,7 @@ function Untitled(){
                   <div className='montserrat  font-semibold text-center lg:text-left text-2xl lg:text-3xl 2xl:text-6xl'>
                       <h3>Lorem ipsum</h3>
                   </div>
-                  <p className='pt-3 text-center lg:text-left 2xl:pt-6 2xl:text-3xl'>
+                  <p className='dark:text-[#B5B5B5] pt-3 text-center lg:text-left 2xl:pt-6 2xl:text-3xl'>
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam </p>
              </div>
              <div className=' flex justify-center w-80  lg:w-4/12'>
@@ -33,7 +33,7 @@ function Untitled(){
                   <div className='montserrat  font-semibold text-center lg:text-right text-2xl lg:text-3xl 2xl:text-6xl'>
                       <h3>Lorem ipsum</h3>
                   </div>
-                  <p className='pt-3 text-center lg:text-right  2xl:pt-6 2xl:text-3xl'>
+                  <p className='dark:text-[#B5B5B5] pt-3 text-center lg:text-right  2xl:pt-6 2xl:text-3xl'>
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
                   </p>
              </div>
@@ -43,7 +43,7 @@ function Untitled(){
                   <div className='montserrat  font-semibold text-center lg:text-left text-2xl lg:text-3xl 2xl:text-6xl'>
                       <h3>Lorem ipsum</h3>
                   </div>
-                  <p className='pt-3 text-center lg:text-left  2xl:pt-6 2xl:text-3xl'>
+                  <p className='dark:text-[#B5B5B5] pt-3 text-center lg:text-left  2xl:pt-6 2xl:text-3xl'>
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam </p>
              </div>
              <div className=' flex justify-center w-80  lg:w-4/12'>

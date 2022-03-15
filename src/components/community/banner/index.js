@@ -2,15 +2,15 @@
 import art from '../../../assets/Group 1761.svg'
 function Banner(){
     return(
-        <section className=" min-h-screen p-6 lg:px-36">
-        <div className='bg-white flex flex-wrap  justify-evenly items-center '> 
+        <section className="dark:bg-[#202124] dark:text-white min-h-screen p-6 lg:px-36">
+        <div className='dark:bg-[#202124] dark:text-white bg-white flex flex-wrap  justify-evenly items-center '> 
              <div className=' w-full lg:w-4/12 '>
                  <div className=' font-bold text-2xl lg:text-3xl text-center lg:text-left  '>
                      <h2>DNA Community</h2>
                  </div>
-                 <p className='montserrat pt-3 lg:pt-6 px-4 lg:px-0  text-[#141010] text-center lg:text-left'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed d</p>
+                 <p className='dark:text-[#B5B5B5] montserrat pt-3 lg:pt-6 px-4 lg:px-0  text-[#141010] text-center lg:text-left'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed d</p>
                  <div className=' flex justify-center lg:justify-start  py-6'>
-                    <button className='button-shadow rounded-lg bg-[#1A73E8] text-[#FFFFFF] px-10 py-1 text-sm montserrat'>Join Now</button>
+                    <button className='dark:bg-[#8AB4F8] dark:text-black button-shadow rounded-lg bg-[#1A73E8] text-[#FFFFFF] px-10 py-1 text-sm montserrat'>Join Now</button>
                 </div>             
              </div>
              <div className='  flex justify-center lg:justify-end w-full lg:w-6/12'>
