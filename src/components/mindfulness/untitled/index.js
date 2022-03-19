@@ -3,7 +3,7 @@ import collab from '../../../assets/Group 1757.svg'
 import earn from '../../../assets/Group 1758.svg'
 function Untitled(){
     return(
-        <section className='dark:bg-[#202124] dark:text-white  py-20 2xl:py-40 lg:px-36'>
+        <section className='dark:bg-[#202124] dark:text-white  py-20 lg:px-36'>
         <div className=' text-center font-semibold 2xl:text-6xl text-3xl py-10 2xl:py-20'>
             <h5>
                 Lorem Ipsum
