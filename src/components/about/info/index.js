@@ -3,7 +3,7 @@ import collab from '../../../assets/Group 1757.svg'
 import earn from '../../../assets/Group 1758.svg'
 function Info(){
     return(
-        <section className='dark:bg-[#202124] dark:text-white p-6 py-20 2xl:py-40 lg:px-36'>
+        <section className='dark:bg-[#202124] dark:text-white p-6   lg:px-36'>
         <div className=' text-center font-semibold text-3xl  py-10 2xl:py-20 2xl:text-6xl'>
             <h5>
                 Upcoming
