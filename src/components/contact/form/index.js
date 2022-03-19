@@ -1,42 +1,59 @@
-
-
-import formimg from '../../../assets/Group 1759.svg'
-function Form(){
-    return(
-        <section className='darkmode lg:py-20 2xl:py-36 bg-[#EEEEEE] p-6 lg:px-40'>
-             <div className='darkmode dark:text-white bg-[#EEEEEE] text-center 2xl:pr-28  lg:text-right font-semibold pt-6 lg:px-20  text-2xl lg:text-3xl 2xl:text-6xl '>
-                         <h4>
-                            Contact Now
-                         </h4>
-                         </div>
-             <div className="darkmode  bg-[#EEEEEE]  flex justify-center items-center pt-10 flex-wrap">
-                 <div className="flex justify-center w-8/12">
-                         <div className=''> 
-                         <img src={formimg} />
-                         </div>
-                 </div>
-                 <div className='  flex justify-center  w-full lg:w-4/12'>
-                     <div className='dark:bg-[#202124] bg-white  py-8 2xl:py-20 rounded-2xl px-8'>
-                       <div className='pb-4 2xl:pb-6 '>
-                           <input className='rounded-lg dark:bg-[#464646] bg-[#EEEEEE] py-1 px-2  2xl:py-4 2xl:px-14' placeholder='Name' type="text" id="name"/>
-                       </div>
-                       <div className='pb-4  2xl:pb-6 '>
-                           <input  className='rounded-lg dark:bg-[#464646] bg-[#EEEEEE] py-1 px-2 2xl:py-4 2xl:px-14'  placeholder='E-mail Address'   type="email" id="e-mail"/>
-                       </div>
-                       <div className='pb-4  2xl:pb-6 '>
-                           <input  className='rounded-lg dark:bg-[#464646] bg-[#EEEEEE]  py-1 px-2 2xl:py-4 2xl:px-14' placeholder='Contact Number' type="text" id="number"/>
-                       </div>
-                       <div className='pb-20  2xl:pb-6 '>
-                           <input className='rounded-lg dark:bg-[#464646] bg-[#EEEEEE] py-8 px-2 2xl:py-4 2xl:px-14 ' placeholder='Get a Fresh Art ready from our Skilled ArtistS' type="textbox" id="date"/>
-                       </div>
-                      
-                       <div className='flex justify-center  pt-4 items-center'>
-                           <button className='dark:bg-[#8AB4F8] dark:text-black bg-[#1A73E8] shadow montserrat text-white rounded-lg px-8 py-1'>Book Now</button>
-                      </div> 
-                   </div>   
-                 </div>
-             </div>
-        </section>
-    )
+import formimg from "../../../assets/Group 1759.svg";
+function Form() {
+  return (
+    <section className="darkmode bg-white h-screen pb-10 lg:pb-16 2xl:pb-24 p-6 lg:px-40">
+      <div className="darkmode bg-white  h-full flex justify-center flex-wrap">
+        <div className="flex justify-center lg:pt-20 2xl:pt-36 w-8/12">
+          <div className="w-full">
+            <img className="w-10/12 h-full object-cover" src={formimg} />
+          </div>
+        </div>
+        <div className="  w-full h-full lg:w-4/12 flex  flex-col">
+          <h4 className="text-xl text-center lg:text-4xl 2xl:text-5xl font-semibold  py-6">Contact Now</h4>
+          <div className="dark:bg-[#202124]   w-full h-70vh py-8 2xl:py-20 lg:rounded-2xl  2xl:rounded-3xl px-8 flex flex-col justify-between">
+            <div>
+            <div className="pb-4 2xl:pb-8 2xl:pl-8  ">
+              <input
+                className="dark:bg-[#464646] w-full rounded-lg 2xl:rounded-2xl bg-[#EEEEEE] py-1 px-2 lg:px-8 2xl:py-6  "
+                placeholder="Name"
+                type="text"
+                id="name"
+              />
+            </div>
+            <div className="pb-4  2xl:pb-8 2xl:pl-8 ">
+              <input
+                className="dark:bg-[#464646] w-full 2xl:rounded-2xl rounded-lg bg-[#EEEEEE] py-1 px-2 lg:px-8 2xl:py-6 "
+                placeholder="E-mail Address"
+                type="email"
+                id="e-mail"
+              />
+            </div>
+            <div className="pb-4  2xl:pb-8 2xl:pl-8">
+              <input
+                className="dark:bg-[#464646] w-full 2xl:rounded-2xl  rounded-lg bg-[#EEEEEE]  py-1 px-2 lg:px-8 2xl:py-6 "
+                placeholder="Contact Number"
+                type="text"
+                id="number"
+              />
+            </div>
+            <div className="pb-20  2xl:pb-6 2xl:pl-8">
+              <input
+                className="dark:bg-[#464646] w-full 2xl:rounded-2xl rounded-lg bg-[#EEEEEE] py-8 px-2 lg:px-8 2xl:py-20  "
+                placeholder="Message"
+                type="textarea"
+                id="message"
+              />
+            </div>
+            </div>
+            <div className="flex justify-center 2xl:pt-20  pt-4 items-center">
+              <button className="dark:bg-[#8AB4F8] dark:text-black bg-[#1A73E8] shadow montserrat text-white rounded-lg px-8 py-1 lg:px-14 2xl:px-20 2xl:py-4 2xl:rounded-2xl 2xl:text-2xl ">
+                Book Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }
-export default Form
+export default Form;
