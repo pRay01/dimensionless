@@ -5,7 +5,7 @@ function Main(){
       <section className="2xl:pt-28 2xl:pb-20  w-full min-h-screen dark:bg-[#202124] dark:text-white flex flex-wrap lg:justify-between   lg:px-36">
         <div className="2xl:pt-40 lg:pt-28 lg:pl-10 text-center lg:text-left w-full  lg:w-6/12">
           <div>
-            <h2 className=" text-2xl lg:text-3xl text-[#343434] font-bold pt-4 2xl:text-6xl">
+            <h2 className=" text-2xl lg:text-3xl text-[#343434] dark:text-white font-bold pt-4 2xl:text-6xl">
               Discover, Collect and Sell Extraordinary Art
             </h2>
             <h5 className="pt-3 2xl:pt-10  text-lg text-[#343434] dark:text-[#B5B5B5] montserrat 2xl:text-4xl">
