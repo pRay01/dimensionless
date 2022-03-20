@@ -46,3 +46,8 @@ h1{
 .darkmode{
     @apply dark:text-[#B5B5B5]
 }
+
+aside{
+    transform:translateX(-100%);
+    transition:all 0.3s ease-in-out;
+}

@@ -69,7 +69,7 @@ function Footer(props){
          <div className='border-b-2 dark:border-[#464646] border-[#EEEEEE]  py-6'>
          {" "}
              <div className=' flex flex-wrap justify-center item-center'>
-                 <img className=" w-10 lg:w-20 " src={props.toggleDark ? logo : darklogo} alt='logo'/>
+                 <img className=" w-10 lg:w-20 " src={props.toggleDark ? darklogo : logo} alt='logo'/>
              </div>{" "}
              <h2 className='dark:text-black flex flex-wrap justify-center text-2xl montserrat text-center text-[#FFFFFF] tracking-widest py-4 lg:py-6 2xl:text-4xl'>DIMENSIONLESS</h2>
          </div>

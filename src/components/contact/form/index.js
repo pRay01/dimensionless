@@ -3,7 +3,7 @@ function Form() {
   return (
     <section className="darkmode bg-white lg:h-screen pb-10 lg:pb-16 2xl:pb-24 p-6 lg:px-40">
       <div className="darkmode bg-white  h-full flex justify-center flex-wrap">
-        <div className="flex justify-center lg:pt-20 2xl:pt-36 w-8/12">
+        <div className="flex justify-center pt-14 lg:pt-20 2xl:pt-36 w-8/12">
           <div className="w-full flex justify-center">
             <img className="w-10/12 h-full object-cover" src={formimg} />
           </div>
@@ -36,7 +36,7 @@ function Form() {
                 id="number"
               />
             </div>
-            <div className="pb-20  2xl:pb-6 2xl:pl-8">
+            <div className="lg:pb-20  2xl:pb-6 2xl:pl-8">
               <input
                 className="dark:bg-[#464646] w-full 2xl:rounded-2xl rounded-lg bg-[#EEEEEE] py-8 px-2 lg:px-8 2xl:py-20  "
                 placeholder="Message"

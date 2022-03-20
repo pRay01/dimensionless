@@ -46,7 +46,7 @@ function App() {
           <Route path="/mindfulness" element={<Mindfulness />} />
           <Route path="/categories" element={<Categories />} />
         </Routes>
-        <Footer />
+        <Footer toggleDark={toggleDark} handleModeChange={handleModeChange} />
       </Router>
     </div>
   );

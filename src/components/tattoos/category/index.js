@@ -4,7 +4,7 @@ import model2 from '../../../assets/images/model2.jpg'
 import { Link } from "react-router-dom";
 function Category(){
     return(
-        <section className=" dark:text-white min-h-screen dark:bg-[#202124]  p-6 lg:px-40" >
+        <section className=" dark:text-white  lg:min-h-screen dark:bg-[#202124]  p-6 lg:px-40" >
         <div className="text-center pb-10">
             <h1 className="font-semibold text-3xl 2xl:text-6xl">Categories</h1>
         </div>
