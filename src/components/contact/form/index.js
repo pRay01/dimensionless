@@ -1,16 +1,16 @@
 import formimg from "../../../assets/Group 1759.svg";
 function Form() {
   return (
-    <section className="darkmode bg-white h-screen pb-10 lg:pb-16 2xl:pb-24 p-6 lg:px-40">
+    <section className="darkmode bg-white lg:h-screen pb-10 lg:pb-16 2xl:pb-24 p-6 lg:px-40">
       <div className="darkmode bg-white  h-full flex justify-center flex-wrap">
         <div className="flex justify-center lg:pt-20 2xl:pt-36 w-8/12">
-          <div className="w-full">
+          <div className="w-full flex justify-center">
             <img className="w-10/12 h-full object-cover" src={formimg} />
           </div>
         </div>
         <div className="  w-full h-full lg:w-4/12 flex  flex-col">
           <h4 className="text-xl text-center lg:text-4xl 2xl:text-5xl font-semibold  py-6">Contact Now</h4>
-          <div className="dark:bg-[#202124]   w-full h-70vh py-8 2xl:py-20 lg:rounded-2xl  2xl:rounded-3xl px-8 flex flex-col justify-between">
+          <div className="dark:bg-[#202124]   w-full h-70vh py-8 2xl:py-20 rounded-xl lg:rounded-2xl  2xl:rounded-3xl px-8 flex flex-col justify-between">
             <div>
             <div className="pb-4 2xl:pb-8 2xl:pl-8  ">
               <input
