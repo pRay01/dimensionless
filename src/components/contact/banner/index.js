@@ -1,7 +1,7 @@
 import art from '../../../assets/Group 1760.svg'
 function Banner(){
     return(
-        <section className="dark:bg-[#202124] dark:text-white  p-6 min-h-screen lg:px-36">
+        <section className="dark:bg-[#202124] dark:text-white  p-6 lg:min-h-screen lg:px-36">
         <div className='lg:pt-28 2xl:pt-48 dark:bg-[#202124] dark:text-white bg-white flex flex-wrap  justify-evenly items-center '> 
              <div className=' lg:pl-24 w-full lg:w-4/12 '>
                  <div className=' font-bold text-2xl lg:text-4xl 2xl:text-7xl text-center lg:text-left  '>

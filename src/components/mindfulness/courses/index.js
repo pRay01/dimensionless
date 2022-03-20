@@ -4,7 +4,7 @@ import earn from '../../../assets/Group 1758.svg'
 
 function Courses(){
     return(
-        <section className="dark:bg-[#202124] dark:text-white p-4 py-20 lg:px-36">
+        <section className="dark:bg-[#202124] dark:text-white p-4 l;g:py-20 lg:px-36">
           <div className=' text-center font-semibold 2xl:text-6xl text-3xl py-10 2xl:py-20'>
                 <h5>
                     Our Courses
@@ -28,7 +28,7 @@ function Courses(){
                   </div>
              </div>
          </div> 
-         <div className=' py-10 2xl:py-20 justify-center lg:justify-between items-center flex flex-wrap '>
+         <div className='pb-10 lg:py-10 2xl:py-20 justify-center lg:justify-between items-center flex flex-wrap '>
              <div className=' w-full p-4 lg:w-6/12'>
                   <div className='montserrat  font-semibold text-center lg:text-left text-2xl lg:text-3xl 2xl:text-6xl'>
                       <h3>Lorem ipsum</h3>
@@ -46,7 +46,7 @@ function Courses(){
              </div>
          </div>
          <div className='py-10 2xl:py-20 flex flex-wrap items-center justify-between'>
-           <div className=' flex justify-center items-center w-full   lg:w-4/12'>
+           <div className=' order-2 lg:order-1 flex justify-center items-center w-full   lg:w-4/12'>
                <div className=' '>
                    <img src={collab}/>
                </div>

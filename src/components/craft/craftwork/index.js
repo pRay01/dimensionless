@@ -42,7 +42,7 @@ function Craftwork(){
                </div> 
         </div>
         <div className=' pt-4 2xl:pt-10 w-full flex flex-wrap justify-center lg:justify-between items-center text-center '>
-              <div className="  w-7/12 lg:w-3/12 mt-4 lg:mt-0 text-center  rounded-xl overflow-hidden ">
+              <div className="  w-8/12 lg:w-3/12 mt-4 lg:mt-0 text-center  rounded-xl overflow-hidden ">
                       <div><img  src={art2}/>
                       <div className='darkmode 2xl:py-4 2xl:text-2xl bg-[#EEEEEE] items-center flex justify-evenly '>
                          <div className='darkmode bg-[#EEEEEE] flex montserrat justify-center items-center'>
