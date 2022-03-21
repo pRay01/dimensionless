@@ -3,6 +3,7 @@ import { BsMoonFill, BsFillSunFill } from "react-icons/bs";
 import logo from '../../assets/ds-b-2500/ds-b-logo.png'
 import darklogo from '../../assets/ds-w-500/ds-logo.png'
 import {FiMenu} from 'react-icons/fi'
+import {GrClose} from 'react-icons/gr'
 
 import React, { useState } from 'react'
 
@@ -22,7 +23,7 @@ function Header(props) {
             } alt="logo" />
           </div>{" "}
         </Link>
-        <h1 className=" lg:pr-24 2xl:pr-0 pl-2 montserrat font-semibold tracking-widest text-2xl text-brand_gray dark:text-white">
+        <h1 className=" lg:pr-24 2xl:pr-0 pl-2 montserrat font-semibold tracking-widest  text-xl lg:text-2xl text-brand_gray dark:text-white">
           DIMENSIONLESS
         </h1>
       </div>
@@ -54,7 +55,11 @@ function Header(props) {
         </ul>
       </div>
       <div className="lg:hidden w-2/12 text-4xl flex justify-end ">
-       <div> <FiMenu onClick={()=>setOpen(!open)}/></div>
+       <div>
+         {open?(<GrClose onClick={()=>setOpen(!open)}/>):
+         ( <FiMenu onClick={()=>setOpen(!open)}/>)}
+       
+         </div>
       </div>
       <aside
         style={style}
